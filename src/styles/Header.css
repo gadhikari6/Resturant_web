@@ -1,0 +1,42 @@
+/* Header Container */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff4d4d;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo and Restaurant Name */
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px; /* Adjust size of logo */
+    height: 50px;
+    margin-right: 10px; /* Add spacing between logo and text */
+  }
+  
+  .restaurant-name {
+    font-size: 1.8rem;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  /* Navigation Links */
+  .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    color: #f0f0f0;
+  }
+  
